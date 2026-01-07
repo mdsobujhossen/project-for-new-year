@@ -133,3 +133,27 @@
     font-weight: 500;
     color: #737272;
 }
+
+
+/* positive-mindset section */
+#positive-mindset{
+    margin-top: 130px;
+    background: url(../images/gradient2.png), url(../images/watch.png);
+    padding: 60px 65px;
+    border-radius: 8px;
+}
+#positive-mindset .content{
+    
+    max-width: 459px;
+}
+#positive-mindset .content h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 24px;
+}
+#positive-mindset .content .call-btn{
+    background: white;
+    color: #F15B22;
+    padding: 20px 36px;
+}
