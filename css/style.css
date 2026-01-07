@@ -8,7 +8,7 @@
 
 /* shared styles */
 
-.continer{
+.container{
     width: 71%;
     max-width: 1141px;
     margin: 0 auto;
@@ -96,4 +96,40 @@
     width: 24px;
     margin-right: 10px;
     color: #16D887;
+}
+
+
+/* My Plans section */
+#my-plans{
+    margin-top: 130px;
+
+}
+#my-plans h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 55px;
+    text-align: center;
+}
+#my-plans .plans-box{
+    display: flex;
+    justify-content: space-between;
+}
+#my-plans .plans-box .plan{
+    text-align: center;
+}
+#my-plans .plans-box .plan img{
+    max-width: 93px;
+    margin-bottom: 24px;
+}
+#my-plans .plans-box .plan h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 16px;
+}
+#my-plans .plans-box .plan p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
 }
