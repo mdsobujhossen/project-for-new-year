@@ -8,6 +8,12 @@
 
 /* shared styles */
 
+.continer{
+    width: 71%;
+    max-width: 1141px;
+    margin: 0 auto;
+}
+
 .btn{
     font-size: 20px;
     font-weight: 600;
@@ -28,11 +34,7 @@
 }
 .banner-container{
     display: flex;
-    width: 71%;
-    max-width: 1141px;
     height: 808px;
-    margin: 0 auto;
-
 }
 .banner .image {
     width: 100%;
@@ -51,4 +53,47 @@
     color: #444343;
     margin-left: 130px;
     margin-bottom: 30px;
+}
+
+/* failure section */
+#failure{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    gap: 87px;
+    align-items: center;
+}
+#failure .failure-image img{
+    max-width: 569px;
+}
+#failure .failure-content{
+    max-width: 416px;
+}
+#failure .failure-content h2{
+   font-size: 40px;
+   font-weight: bold;
+   color: #151414;
+   margin-bottom: 24px;
+}
+#failure .failure-content p{
+    line-height: 26px;
+   color: #444343;
+   margin-bottom: 16px;
+}
+#failure .failure-content .list{
+    display: flex;
+    align-items: center;
+}
+#failure .failure-content ul li{
+    list-style: none;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+
+}
+#failure .failure-content ul li i{
+    width: 24px;
+    margin-right: 10px;
+    color: #16D887;
 }
